@@ -238,7 +238,7 @@ app.get('/getAll', (req, res) => {
 	});
 });
 
-app.listen(8000, () => {
+app.listen(3000, () => {
 	console.log(`Fun Fact backend is running!`);
 });
 
