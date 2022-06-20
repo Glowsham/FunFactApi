@@ -75,7 +75,7 @@ app.get('/api/fetch/:pageType/:elementId?', auth, (req, res) => {
 	
 			req.database.find({ elementId: req.elementId }).sort('-position').select('-elementId -position -__v').exec((e, items) => {
 				res.json({
-					message: 'Welcome to the Fun Fact app!',
+					//message: 'Welcome to the Fun Fact app!',
 					element,
 					items
 				});
