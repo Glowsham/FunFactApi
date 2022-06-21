@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 const cors = require('cors');
 app.use(cors({
-    origin: ['https://web.postman.co', 'https://csb.app', 'https://fun-fact.vercel.app'],
+    origin: ['https://web.postman.co', 'https://e4jfkx.csb.app', 'https://fun-fact.vercel.app'],
     optionsSuccessStatus: 200
 }));
 
